@@ -1,0 +1,817 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+  html body {
+    width: 100%;
+    margin: 2rem; }
+  @media (max-width: 25em) {
+    html .header__top {
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-transform: uppercase;
+      padding: 1rem;
+      position: relative;
+      font-size: 70%; }
+      html .header__top--language {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      html .header__top--chat {
+        background-color: #25d366;
+        padding: 0.5rem; }
+    html .header__second {
+      position: relative; }
+      html .header__second--total {
+        display: flex;
+        justify-content: space-between; }
+        html .header__second--total--top--icons {
+          display: flex;
+          justify-content: space-around;
+          align-items: center; }
+          html .header__second--total--top--icons--shopping {
+            margin: 0 3rem; }
+        html .header__second--total--down {
+          display: none; }
+    html .banner__image {
+      right: 4rem; }
+    html .banner__text {
+      top: 1rem;
+      left: 1rem; }
+      html .banner__text--customized {
+        font-size: 1.4rem; }
+      html .banner__text--jerseys {
+        font-size: 1.4rem; }
+    html .banner__shop {
+      border: 2px solid #fff; }
+      html .banner__shop--text {
+        font-size: 1rem;
+        font-weight: 800; }
+    html .afterBanner__cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 0 auto; }
+      html .afterBanner__cards--card {
+        width: 18rem;
+        height: 8rem;
+        margin: 0.5rem auto; }
+        html .afterBanner__cards--card--text {
+          display: flex;
+          font-size: 90%; }
+          html .afterBanner__cards--card--text--span {
+            font-size: 80%;
+            font-weight: 400; }
+    html .afterBanner__rewardsBadge {
+      margin: 2rem 0; }
+    html .popularShirts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      html .popularShirts__text {
+        display: flex;
+        flex-direction: row; }
+      html .popularShirts__cards {
+        overflow-x: scroll;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+      html .popularShirts__cards:first-child {
+        margin-left: 1rem; }
+    html .countryLeagues {
+      margin: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap; }
+      html .countryLeagues__heading {
+        font-weight: 800;
+        margin: 4rem 0rem; }
+      html .countryLeagues__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; }
+        html .countryLeagues__cards--card {
+          margin: 0.6rem; }
+          html .countryLeagues__cards--card--name {
+            font-weight: 700;
+            margin: 0.6rem 0rem; }
+    html .otherCollections__cards {
+      align-items: center;
+      justify-content: center; }
+      html .otherCollections__cards--card {
+        width: 36rem; }
+    html .beforeFooter__cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      html .beforeFooter__cards--card {
+        display: flex;
+        margin: 1rem 0rem;
+        width: 36rem; }
+        html .beforeFooter__cards--card--text {
+          font-size: 1.2rem; }
+    html .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90%; }
+      html .footer__column {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+      html .footer__down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        html .footer__down--left {
+          font-size: 1.2rem; }
+    html .description__images--smalls {
+      justify-content: space-between; }
+      html .description__images--smalls--small--active {
+        margin: 0.2rem; }
+      html .description__images--smalls--small--notActive {
+        margin: 0.2rem; }
+    html .description__text {
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box; }
+      html .description__text--top {
+        margin: 2rem 0rem; }
+        html .description__text--top--heading {
+          font-size: 95%; }
+        html .description__text--top--pricing {
+          font-size: 95%; }
+          html .description__text--top--pricing--main {
+            font-size: 2.5rem; }
+          html .description__text--top--pricing--discount {
+            margin: 0rem 0.8rem; }
+          html .description__text--top--pricing--save {
+            padding: 0.5rem 2rem;
+            font-size: 70%; }
+          html .description__text--top--pricing--favorites {
+            font-size: 80%;
+            padding: 0.5rem 1.5rem;
+            margin-left: 1rem; }
+      html .description__text--second {
+        line-height: 2rem; }
+      html .description__text--input {
+        position: relative; }
+        html .description__text--input--field {
+          margin-bottom: 1.5rem;
+          margin-right: 1rem; }
+          html .description__text--input--field--label {
+            font-size: 70%;
+            font-weight: 600; }
+            html .description__text--input--field--label--star {
+              font-weight: 600;
+              font-size: 1.6rem; }
+          html .description__text--input--field--chart {
+            padding: 1rem 1rem;
+            text-align: center;
+            font-size: 70%;
+            font-weight: 600; }
+    html .description__cart--text {
+      font-size: 70%; } }
+  @media (max-width: 37.5em) {
+    html .header__top {
+      font-size: 1rem; }
+    html .header__second--yellow {
+      display: none; }
+    html .header__second--total--top--category {
+      display: none; }
+    html .header__second--total--top--input--searchBox {
+      display: none; }
+    html .header__second--total--top--input--button {
+      display: none; }
+    html .header__second--total--top--icons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      html .header__second--total--top--icons--shopping {
+        margin: 0 3rem; }
+    html .header__second--total--down {
+      display: none; }
+    html .beforeFooter__cards {
+      width: 95vw; }
+      html .beforeFooter__cards--card {
+        display: flex;
+        margin: 1rem 0rem;
+        width: 40rem; }
+        html .beforeFooter__cards--card--text {
+          font-size: 1.2rem; }
+    html .banner__image {
+      right: 4rem; }
+    html .banner__text {
+      font-size: 2rem;
+      top: 2rem;
+      left: 2rem; }
+    html .banner__shop {
+      font-size: 1.4rem;
+      position: absolute;
+      right: 2rem;
+      bottom: 2rem; }
+    html .afterBanner__cards {
+      justify-content: space-around; }
+      html .afterBanner__cards--card {
+        width: 16rem;
+        height: 8rem;
+        margin: 0.5rem auto; }
+        html .afterBanner__cards--card--text {
+          display: flex;
+          font-size: 90%; }
+          html .afterBanner__cards--card--text--span {
+            font-size: 80%;
+            font-weight: 400; }
+    html .afterBanner__rewardsBadge {
+      margin: 2rem 0; }
+    html .popularShirts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      html .popularShirts__text {
+        display: flex;
+        flex-direction: column; }
+      html .popularShirts__cards {
+        display: flex;
+        justify-content: center; }
+        html .popularShirts__cards--card {
+          margin: 1rem; }
+    html .countryLeagues {
+      margin: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap; }
+      html .countryLeagues__heading {
+        font-weight: 800;
+        margin: 4rem 0rem; }
+      html .countryLeagues__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; }
+        html .countryLeagues__cards--card {
+          margin: 0.6rem; }
+          html .countryLeagues__cards--card--name {
+            font-weight: 700;
+            margin: 0.6rem 0rem; }
+    html .otherCollections__cards {
+      align-items: center;
+      justify-content: center; }
+      html .otherCollections__cards--card {
+        width: 40rem; }
+    html .beforeFooter__cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      html .beforeFooter__cards--card {
+        margin: 1rem 0rem; }
+    html .footer {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      html .footer__column {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+      html .footer__down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; } }
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1.6rem; }
+
+.header__top {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 0 0.5rem; }
+  .header__top--language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242425;
+    padding: 0.5rem 5rem; }
+    .header__top--language--globe {
+      margin-right: 0.5rem; }
+    .header__top--language--icon {
+      background-color: white;
+      border-radius: 50%;
+      padding: 0.5rem;
+      margin-left: 0.5rem; }
+  .header__top--chat {
+    background-color: #25d366;
+    padding: 0.5rem 3rem; }
+
+.header__second {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .header__second--yellow {
+    background-color: #fadd18;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8.8rem;
+    width: 16rem;
+    z-index: -100; }
+  .header__second--total {
+    display: flex;
+    flex-direction: column; }
+    .header__second--total--top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1rem auto;
+      position: relative; }
+      .header__second--total--top--category {
+        display: flex;
+        align-items: center;
+        font-size: 80%;
+        font-weight: 700; }
+        .header__second--total--top--category--icon {
+          padding: 1rem; }
+      .header__second--total--top--input {
+        display: flex; }
+        .header__second--total--top--input--searchBox {
+          font-family: inherit;
+          padding: 0.5rem 3rem;
+          align-items: center;
+          width: 40vw;
+          background-color: transparent;
+          border: 2px solid #eaeaec; }
+        .header__second--total--top--input--button {
+          background-color: #fadd18;
+          color: #000;
+          border: none;
+          font-family: inherit;
+          font-weight: 600;
+          padding: 0.5rem 3rem; }
+        .header__second--total--top--input--icon {
+          background-color: #000;
+          padding: 2rem; }
+      .header__second--total--top--icons {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 105%; }
+        .header__second--total--top--icons--shopping {
+          background-color: #000;
+          padding: 0.5rem;
+          border-radius: 50%; }
+        .header__second--total--top--icons--user {
+          border-radius: 50%;
+          padding: 50%;
+          filter: grayscale(100%);
+          margin-left: 3rem; }
+  .header__second--total--down {
+    color: #000;
+    border: 1px solid rgba(234, 234, 236, 0.7);
+    padding: 0.4rem 4rem 0.4rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; }
+    .header__second--total--down--ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 70%;
+      font-weight: 600; }
+      .header__second--total--down--ul--item {
+        display: flex;
+        align-items: center;
+        margin: 1rem; }
+
+.footer {
+  background-color: #eaeaec;
+  padding: 4rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .footer__columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.2rem; }
+    .footer__columns--column {
+      list-style: none;
+      margin: 2rem;
+      line-height: 3rem;
+      margin-right: 5rem; }
+      .footer__columns--column--head {
+        font-weight: 700; }
+      .footer__columns--column--email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0rem; }
+        .footer__columns--column--email--emailaddress {
+          font-family: inherit;
+          background-color: rgba(255, 255, 255, 0.5);
+          padding: 1rem 4rem;
+          outline: none;
+          border: none; }
+        .footer__columns--column--email--send {
+          background-color: #fadd18;
+          padding: 1rem; }
+      .footer__columns--column--social {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0rem; }
+        .footer__columns--column--social--icon {
+          background-color: #000;
+          padding: 1rem;
+          margin: 0.5rem; }
+  .footer__down {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; }
+    .footer__down--left {
+      margin: 8rem auto; }
+    .footer__down--right {
+      transform: scale(0.8); }
+
+.banner {
+  margin: 2rem;
+  position: relative; }
+  .banner__image {
+    width: 100%; }
+  .banner__text {
+    font-size: 3rem;
+    font-weight: bolder;
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+    display: flex;
+    flex-direction: column; }
+    .banner__text--customized {
+      color: #fff; }
+    .banner__text--jerseys {
+      color: #fadd18; }
+  .banner__shop {
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    color: #fff; }
+    .banner__shop--text {
+      padding: 1rem; }
+    .banner__shop--bag {
+      background-color: #fff;
+      padding: 1.4rem; }
+  .banner__lines {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .banner__lines--yellow {
+      position: absolute;
+      bottom: 3rem;
+      left: 7rem;
+      width: 7rem;
+      height: 0.4rem;
+      background-color: #fadd18; }
+    .banner__lines--whites {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .banner__lines--whites--white {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        bottom: 3rem;
+        left: 20rem;
+        width: 7rem;
+        height: 0.4rem;
+        background-color: rgba(255, 255, 255, 0.3); }
+
+.row {
+  max-width: 114rem;
+  color: #fff;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^='col-'] {
+    background-color: orange;
+    float: left; }
+    .row [class^='col-']:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(
+ 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(
+ 2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(
+ 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+
+.afterBanner__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .afterBanner__cards--card {
+    background-color: #fefae1;
+    width: 25rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    position: relative; }
+    .afterBanner__cards--card--text {
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      text-align: center;
+      font-weight: 800;
+      font-size: 80%;
+      margin-top: 4rem;
+      margin-left: 2rem;
+      position: absolute; }
+      .afterBanner__cards--card--text--span {
+        font-size: 80%;
+        font-weight: 400; }
+    .afterBanner__cards--card--icon {
+      background-color: #f8d307;
+      padding: 1rem;
+      position: absolute;
+      top: 0;
+      left: 2; }
+
+.afterBanner__rewardsBadge {
+  margin: 2rem 0; }
+
+.popularShirts__text {
+  font-size: 3rem;
+  margin: 4rem;
+  font-weight: 800; }
+
+.popularShirts__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0rem; }
+  .popularShirts__cards--card {
+    border: 2px solid #eaeaec;
+    margin: 0.2rem;
+    position: relative; }
+    .popularShirts__cards--card--photo {
+      position: relative; }
+      .popularShirts__cards--card--photo--green {
+        position: absolute;
+        left: 2rem;
+        bottom: 2rem;
+        background-color: #23c353;
+        color: #fff;
+        padding: 0.4rem 1rem; }
+    .popularShirts__cards--card--text {
+      margin: 0.6rem 0rem 2rem 1.3rem; }
+      .popularShirts__cards--card--text--price {
+        display: flex;
+        align-items: center; }
+        .popularShirts__cards--card--text--price--main {
+          font-weight: bolder; }
+        .popularShirts__cards--card--text--price--sub {
+          color: #ee503e;
+          text-decoration: line-through;
+          font-size: 1.2rem;
+          margin-left: 1rem; }
+
+.countryLeagues {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .countryLeagues__heading {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 4rem 0rem; }
+  .countryLeagues__cards {
+    display: flex;
+    flex-wrap: wrap; }
+    .countryLeagues__cards--card {
+      margin: 0.5rem; }
+      .countryLeagues__cards--card--name {
+        font-weight: 700;
+        margin: 0.6rem 0rem; }
+
+.otherCollections {
+  margin: 4rem 0rem; }
+  .otherCollections__heading {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 4rem 2rem; }
+  .otherCollections__cards {
+    display: flex;
+    flex-wrap: wrap; }
+    .otherCollections__cards--card {
+      position: relative;
+      margin: 0.5rem; }
+      .otherCollections__cards--card--image {
+        width: 100%; }
+        .otherCollections__cards--card--image--blur {
+          z-index: 1000;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          color: #fff;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.548);
+          width: 100%; }
+          .otherCollections__cards--card--image--blur--text {
+            margin-left: 2rem;
+            padding: 0rem 2rem;
+            color: blue;
+            border: 3px solid red; }
+          .otherCollections__cards--card--image--blur--icon {
+            background-color: #fadd18;
+            padding: 2rem; }
+
+.beforeFooter {
+  margin: 4rem 0rem;
+  box-sizing: border-box; }
+  .beforeFooter__cards {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem; }
+    .beforeFooter__cards--card {
+      position: relative;
+      width: 60rem;
+      margin: 1rem;
+      background-color: #000; }
+      .beforeFooter__cards--card--image {
+        width: 100%;
+        opacity: 70%; }
+      .beforeFooter__cards--card--text {
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+        font-size: 2rem; }
+        .beforeFooter__cards--card--text--big {
+          font-weight: 700; }
+        .beforeFooter__cards--card--text--socials {
+          display: flex;
+          margin: 1rem 0rem; }
+          .beforeFooter__cards--card--text--socials--icon {
+            background-color: #fff;
+            padding: 1rem;
+            margin: 0.5rem; }
+
+.description {
+  margin: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box; }
+  .description__images {
+    cursor: pointer; }
+    .description__images--big {
+      width: 100%; }
+    .description__images--smalls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%; }
+      .description__images--smalls--small {
+        margin: 0.5rem 0; }
+        .description__images--smalls--small--notActive {
+          opacity: 0.5; }
+        .description__images--smalls--small--notActive:hover {
+          opacity: 1; }
+  .description__text {
+    display: flex;
+    flex-direction: column; }
+    .description__text--top {
+      margin: 2rem 0rem; }
+      .description__text--top--heading {
+        font-weight: 700;
+        font-size: 2rem; }
+      .description__text--top--pricing {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem; }
+        .description__text--top--pricing--main {
+          font-weight: 700;
+          font-size: 3rem; }
+        .description__text--top--pricing--discount {
+          color: #ee503e;
+          text-decoration: line-through;
+          margin: 0rem 1rem; }
+        .description__text--top--pricing--save {
+          background-color: #25d366;
+          color: #fff;
+          padding: 1rem 3rem;
+          font-size: 80%;
+          word-break: keep-all; }
+        .description__text--top--pricing--favorites {
+          display: flex;
+          align-items: center;
+          border: 2px solid #eaeaec;
+          padding: 1rem 1.5rem;
+          margin-left: 1rem; }
+          .description__text--top--pricing--favorites--text {
+            font-size: 80%;
+            margin-left: 1rem; }
+    .description__text--second {
+      max-width: 45rem;
+      font-size: 85%;
+      font-weight: 400;
+      line-height: 2rem; }
+    .description__text--input {
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      position: relative; }
+      .description__text--input--field {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 3rem; }
+        .description__text--input--field--label {
+          position: absolute;
+          left: 0;
+          font-size: 70%;
+          font-weight: 600; }
+          .description__text--input--field--label--star {
+            color: red;
+            font-weight: 600;
+            font-size: 1.6rem; }
+        .description__text--input--field--chart {
+          background-color: rgba(234, 234, 236, 0.5);
+          padding: 1rem 1rem;
+          font-size: 70%;
+          font-weight: 600;
+          margin-left: 1rem; }
+        .description__text--input--field--form {
+          margin-left: 3rem;
+          padding: 1rem 5rem;
+          padding-left: 1rem;
+          font-family: inherit;
+          font-size: 70%;
+          display: flex;
+          border: 2px solid #eaeaec; }
+  .description__cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fadd18; }
+    .description__cart--text {
+      font-weight: 800;
+      margin-left: 2rem;
+      font-size: 80%; }
+    .description__cart--icon {
+      margin-left: 1rem;
+      background-color: #000;
+      padding: 1.5rem; }
